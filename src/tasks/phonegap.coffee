@@ -16,6 +16,7 @@ module.exports = (grunt) ->
       pkg.name
     verbose: false
     releases: 'releases'
+    androidDebuggable: false
     releaseName: ->
       pkg = grunt.file.readJSON 'package.json'
       "#{pkg.name}-#{pkg.version}"

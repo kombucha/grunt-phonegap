@@ -22,6 +22,7 @@
       },
       verbose: false,
       releases: 'releases',
+      androidDebuggable: false,
       releaseName: function() {
         var pkg;
         pkg = grunt.file.readJSON('package.json');
